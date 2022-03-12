@@ -1,14 +1,12 @@
 package com.devsuperior.dsmovie.dto;
 
-import com.devsuperior.dsmovie.entities.Score;
-
 public class ScoreDTO {
 
     private Long movieId;
     private String email;
     private Double score;
 
-    public ScoreDTO (){
+    public ScoreDTO() {
     }
 
     public Long getMovieId() {
