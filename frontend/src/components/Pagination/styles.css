@@ -21,7 +21,7 @@
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background-color: rgb(235, 192, 222);
+    background-color: rgb(245, 228, 245);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@
 }
 
 .dsmovie-pagination-button:disabled {
-    border: 1px solid #b600b6;
+    border: 1px solid #e9d0e9;
     cursor: unset;
 }
 
