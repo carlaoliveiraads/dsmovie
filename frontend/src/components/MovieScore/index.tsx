@@ -1,4 +1,4 @@
-import MovieStars from "components/Navbar/MovieStars";
+import MovieStars from "components/MovieStars";
 import './styles.css';
 
 

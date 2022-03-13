@@ -14,7 +14,7 @@
 
 .dsmovie-form-group label {
     font-size: 12px;
-    color: #aaa;
+    color: rgb(235, 235, 235);
 }
 
 .dsmovie-form-btn-container {
@@ -37,7 +37,7 @@
 }
 
 .dsmovie-card-bottom-container h3 {
-    color: #4A4A4A;
+    color: #510068;
     text-align: center;
     font-size: 14px;
     font-weight: 700;
