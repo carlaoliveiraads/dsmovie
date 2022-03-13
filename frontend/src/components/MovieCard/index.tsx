@@ -4,20 +4,26 @@ import { Movie } from "types/movie";
 
 type Props = {
   movie: Movie;
-}
+};
 
-function MovieCard( { movie } : Props) {
+function MovieCard({ movie }: Props) {
+  return (
+    <div>
+      <img
+        className="dsmovie-movie-card-image"
+        src={movie.image}
+        alt={movie.title}
+      />
+      <div className="dsmovie-card-bottom-container">
+        <h3>{movie.title}</h3>
+        <MovieScore count={movie.count} score={movie.score} />
 
-     return (
-        <div>
-            <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
-            <div className="dsmovie-card-bottom-container">
-                <h3>{movie.title}</h3>
-                <MovieScore />
-                <div className="btn btn-primary dsmovie-btn">Avaliar</div>
-            </div>
-        </div>
-    );
+        <Link to={`/form/${movie.id}`}>
+          <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+        </Link>
+      </div>
+    </div>
+  );
 }
 
 export default MovieCard;
